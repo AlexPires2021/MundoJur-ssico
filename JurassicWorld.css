@@ -1,40 +1,25 @@
-body { font-family: 'Segoe UI', Arial, sans-serif ;}
-
-article { border: 1px #909090 solid; 
-          padding: 20px;
-          margin-top: 20px;
-          margin-bottom: 20px;
-
-          box-sizing: border-box;
-          /* width:47%; */
+h1{
+   text-align: center;
 }
 
-article img { max-width: 100%; }
-
-main section { 
-                display:flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-             }
-
-nav a { margin-right: 32px;}             
-
-/* Media Queries */
-@media ( min-width: 800px )
-{
-   /* articles 2 lado a lado */
-   article { width: 47%;}
+p{
+   text-align: center;
 }
 
-@media ( min-width:1000px )
-{
-   /* articles 3 lado a lado */
-   article { width: 31% ;}
+img{
+   vertical-align: middle;
 }
 
-@media ( min-width:1200px )
-{
-   /* articles 4 lado a lado */
-   article { width: 22%; }
-   
-} 
+.section-header .hero-image img {
+   width: 12em;
+   height: auto;
+}
+
+img {
+   border: 0px;
+}
+
+svg{
+   width: 8rem;
+   height: 8rem;
+}
