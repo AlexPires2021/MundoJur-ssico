@@ -1,0 +1,31 @@
+h1{
+   text-align: center;
+}
+
+p{
+   text-align: center;
+}
+
+img{
+   vertical-align: middle;
+}
+
+.section-header .hero-image img {
+   width: 12em;
+   height: auto;
+}
+
+img {
+   border: 0px;
+}
+
+svg{
+   width: 8rem;
+   height: 8rem;
+}
+
+li.dino-link.unlocked{
+   display: contents;
+   font-family: fantasy;
+   justify-content: space-between;
+}
